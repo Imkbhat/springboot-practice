@@ -1,0 +1,2 @@
+msg: this is msg reading from server file.
+example.property: "This is an example to read from property file."

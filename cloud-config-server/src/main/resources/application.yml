@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native,local
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///C:/Users/ADMIN/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/cloud-config-server/src/main/resources/config/Licensingservice
+
+logging:
+  level:
+    org.springframework.cloud.config: DEBUG
